@@ -1,0 +1,319 @@
+@charset "utf-8";
+/* CSS Document */
+/* --------------------------------------------------------
+Style Sheet for Onepage
+
+version: 1.0
+last modified: 01.01.2017 by Someone Else
+author: Rafiqul Hasan Roni
+email: rony332392@gmail.com
+website: http://www.nisarsoft.com/
+----------------------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+
+body {
+	padding:0;
+	margin:0;
+	text-align:center;
+	font-family: 'Raleway', sans-serif;; 
+	color:#808080;
+	font-size:14px;
+}
+html, body { height: 100%; margin: 0px; }
+body{
+	text-align:center;
+	font-family:Hind,Arial,sans-serif; 
+	color:#808080;
+	font-size:14px;
+}
+*html, body {
+	height:100%;
+}
+.wrapper {
+	min-height:100%; /* gives layout 100% height */
+	width:100%;
+	margin:0 auto;/* centers #wrapper */
+	position: relative;
+}
+* html .wrapper { 
+	height:100%; /* IE6 treats height as min-height */
+}
+body{
+	text-align:center;
+	font-family: 'Raleway', sans-serif;; 
+	color:#808080;
+	font-size:14px;
+}
+
+/*===========@Global Styles ============*/
+*{margin:0; padding:0; outline:none}
+img,fieldset{border:0}
+a{color:#808080}
+a{text-decoration:none;}
+
+.clear{ clear:both;}
+a:hover{text-decoration:none !important;}
+a:focus{outline:none !important;}
+/*p{color:#aaa !important;}*/
+.floatLeft{float:left !important;}
+.floatRight{float:right !important;}
+.marTop40{margin-top:40px !important;}
+.bg-none{background:none !important;}
+
+.parallax {
+    /* The image used */
+    background-image:url(../images/banner.jpg);
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.transition{ -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out;}
+.errormsg{text-align:left; width:100%; color:red; position:absolute; bottom:8px; left:0; text-transform:capitalize; font-size:12px;}
+.overlay{background-color:rgba(0, 0, 0, 0.7); background-image:url(../images/pattern.png); background-repeat:repeat; width: 100%; position: absolute; top: 0; bottom: 0;}
+/*===========@Header Styles ============*/
+#header{width:100%; background:none; height:auto;}
+body.fixd #header{ margin-top:-50px; padding-top:80px;}
+.mainbar{background:none; width:100%;}
+body.fixd .mainbar{background: rgba(0, 0, 0, 0.8); position:fixed; top:0; z-index:1111}
+.mainbar .navbar-nav > li > a{padding:25px 20px; font-size:15px; color:#f32853 !important; font-style:700; background:none; text-transform:uppercase; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out;}
+.logo{color:#fff !important; font-family:"Courier New",Courier,monospace; font-weight:bold; font-size:28px; padding:25px 20px;}
+.mainbar .navbar-nav > li > a:hover, .nav-active{
+text-shadow:5px 5px 5px #999;
+background:#000 !important;
+-webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out;
+}
+.mainbar .navbar-nav > li > a:hover{color:#F90 !important; background: rgba(255, 255, 255, 0.3) !important;}
+body.fixd .navbar-nav > li > a.nav-active, .mainbar .navbar-nav > li > a.nav-active{background:#f32853 !important; color:#fff !important;}
+.banner-logo{width:100%; max-width:1030px; margin:0 auto;}
+.banner-logo img{width:100%;}
+.social{margin:0px 10px;}
+.social.navbar-nav > li > a{padding:25px 3px; font-size:16px; margin-right:8px; }
+
+#header article{margin-top:13%;}
+#header h1, .title{font-weight:300; font-size:24px; text-align:center; text-transform:uppercase; color:white; padding:0; margin:0}
+#header article p{color:#FFF; text-align:center; margin-top:15px;}
+
+body.fixd .mainbar .navbar-nav > li > a, body.fixd .social.navbar-nav > li > a, body.fixd .logo{padding-top:15px; padding-bottom:15px;}
+
+
+.banner-txt{text-align:right !important; padding-right:100px !important;}
+.typewriter{display:none;}
+
+/*===========@Header Styles ============*/
+
+.title{color:#484848; margin:80px 0; font-size:45px; text-align:left; font-family: 'Raleway', sans-serif; font-weight:700;}
+
+
+/*ABOUT_US*/
+
+
+
+
+
+.sub-list{width:100%; background:none !important; padding-left:0px; margin-bottom:80px;}
+.sub-list li{background:none; display:list-item; padding-left:0; font-size:16px !important;}
+
+
+.contact-form{width:100%; max-width:600px; overflow:hidden; margin:40px auto 0 auto; /*background:rgba(0, 0, 0, .3)*/}
+.contact-form input, .contact-form textarea{border-radius:0; border-color:#e61638; background:#f9f9f9; font-size:16px; height:40px; line-height:40px; color:#000; padding:0 15px 0 35px ; text-align:left;}
+.contact-form button.btn{background:#38a7bb; border-color:#38a7bb; font-size:16px; padding:10px 25px 10px 40px; font-weight:600; border-radius:0; color:#fff !important;}
+.contact-form textarea{min-height:150px;}
+.contact-form .form-group, .contact-form .btn{position:relative;}
+.contact-form .form-group i, .btn i{position:absolute; top:10px; left:10px; font-size:20px; color:#aaa;}
+.btn i{color:#fff !important;}
+.contact-form button.btn:hover{background:#444440; box-shadow:8px 8px 8px #767777; border:1px solid #444440; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -ms-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out;}*}
+.contact-form ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #aaa;
+}
+.contact-form ::-moz-placeholder { /* Firefox 19+ */
+  color: #aaa;
+}
+.contact-form :-ms-input-placeholder { /* IE 10+ */
+  color: #aaa;
+}
+.contact-form :-moz-placeholder { /* Firefox 18- */
+  color: #aaa;
+}
+.contact-form .form-group{margin-bottom:0px; padding-bottom:30px;}
+.box-simple {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.icon {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    height: 80px;
+    line-height: 80px;
+    width: 80px;
+}
+.box-simple:hover .icon {transform: scale(1.1, 1.1);}
+.box-simple .icon {
+    border-color: #38a7bb;
+    color: #38a7bb;
+    transition: all 0.2s ease-out 0s;
+}
+.box-simple h3 {
+    color: #555555;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    line-height: 1.5;
+    text-transform: uppercase;
+	margin-top:20px;
+}
+
+#footer{width:100%; height:auto; background:#000; float:left;}
+#footer p, .footer_menu ul li a{color:#FFF; font-size:14px; padding:10px 0; display:block; float:right; margin-bottom:0;}
+.footer_menu, .footer_menu ul{padding:0; margin:0; display:inline-block;}
+.footer_menu ul li{list-style:none; float:left;}
+.footer_menu ul li a{padding:10px;}
+.footer_menu ul li a i{margin-right:5px;}
+.footer_menu ul li a:hover{color:green;}
+.footer_menu ul li ul{display:none;}
+.footer-txt{color:#e61538 !important;}
+.slideanim {visibility:hidden;}
+.slide {
+	animation-name: slide;
+	-webkit-animation-name: slide;
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+	visibility:visible;
+}
+@keyframes slide {
+	0% {
+		opacity: 0;
+		transform: translateY(70%);
+	} 
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@-webkit-keyframes slide {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(70%);
+	} 
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0%);
+	}
+}
+
+.sub-title-box{width:100%; max-width:400px; margin:0 auto; background:#0CC; min-height:400px; box-shadow:0px 0px 8px #333; border:1px solid #999;}
+.sub-title-box ul{ width:100%; padding:70px;}
+.sub-title-box ul li{float:left; width:100%; display:block; font-size:32px; color:#000; text-align:left; padding:15px 0; text-transform:capitalize; color:#fff;}
+.sub-title-box ul li:first-child{padding-top:0;}
+.sub-title-box ul li:last-child{padding-bottom:0;}
+
+.sub-title{
+    font-size:21px; 
+    color:#EDE7F6; 
+    text-align:left; 
+    text-transform:uppercase; 
+    font-weight:700;
+	padding-top:15px;
+}
+
+
+
+
+.culture-article{padding:100px 15px; margin:0 -15px; text-align:justify; margin-top:90px;}
+.culture-article.sub-title{margin-bottom:20px; color:#FFF;}
+.culture-gallery{margin-bottom:50px;}
+.culture-gallery ul{width:100%; margin:0; padding:0; display: flex; flex-wrap: wrap;}
+.culture-gallery ul li{filter: grayscale(100%); float: left; list-style-type: none; transition: all 0.2s ease 0s;}
+.culture-gallery ul li:hover{filter: grayscale(0%); transition: all 0.2s ease 0s;}
+li.culture0 {
+    flex-basis: 57.4%;
+}
+li.culture1 {
+    flex-basis: 42.6%;
+}
+li.culture2 {
+    flex-basis: 21.5%;
+}
+li.culture3 {
+    flex-basis: 26.3%;
+}
+li.culture4 {
+    flex-basis: 52.2%;
+}
+.2nd{transition: all 3s ease 0s !important;}
+
+
+/* RATUL CUSTOM CODES*/
+
+.intro{
+    background: #F00;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+#introLeft{
+    background: #0F0;
+    padding: 20px 20px;
+}
+#introRight{
+    background: grey;
+    background-color: aqua;
+    padding: 20px 20px;
+    height: fill;
+    background-position: center;
+}
+
+#introRight>img{
+    align-content:center !important;
+}
+
+
+#introLeft h1{
+    color: #F00;
+    font-size: 45px;
+    display: inline-block;
+    text-align:left;
+    font-weight:bold;
+    text-transform:uppercase;
+    
+}
+
+#introLeft ul{
+    color: #161616;
+    padding:0; 
+    margin:0; 
+    width:100%; 
+    max-width:355px; 
+    margin:0 auto; 
+    margin-top:30px;
+    list-style: none;
+}
+#introLeft ul li{
+    text-align:left;
+    font-size:22px; 
+}
+
+
+
+.vision h1{font-size:45px; text-align:left; color:red; font-weight:bold; text-transform:uppercase;}
+.vision ul{padding:0; margin:0; width:100%; margin-top:30px;}
+.vision ul li{text-align:left; font-size:22px; list-style-type: none; color: black;}
+.vision-img{width:100%;}
+.fuck{min-height:100%; overflow:hidden;}
+
+.vision-box{width:50%; background:#fff; position:absolute; left:0; top:0; bottom:0;}
+.visionR{left:inherit; right:0; background:#eff0f2;}
+.vision-box .vision{padding:50px; width:100%;}
+.vision-img{padding:10% 5%;}
+#culture{overflow:hidden;}
+     
+   

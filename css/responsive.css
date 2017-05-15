@@ -1,0 +1,86 @@
+/* CSS Document */
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+	
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.vision-img img{width:100%;}
+}
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.mainbar .navbar-nav > li > a{padding:25px 10px;}
+	.aboutAspect ul li{max-width:180px; min-height:180px;}
+	.service-box ul li{max-width:350px; height:350px;}
+	.service-box ul{float:none !important;}
+	.service-box ul li{box-shadow:4px 4px 4px #000000 !important; float:inherit; margin:0 auto !important; margin-left:3px !important; overflow:hidden;}
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.aboutAspect ul li{max-width:140px; min-height:140px;}
+	.more {font-size:16px;}
+	.social{margin-left:10px;}
+	.mainbar .navbar-nav > li > a{font-size:11px;}
+	.sm-left{float:left;}
+	.social.navbar-nav > li > a{margin-right:0px; padding:25px 5px; font-size:13px;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.xs-wrapper{}
+	.vision-box{width:100%; position:inherit;}
+	#serviceTitle p, .pre{font-size:16px; text-align:left;}
+	#header article{margin-top:30%;}
+	.service-box ul{float:none !important;}
+	.service-box ul li{box-shadow:4px 4px 4px #000000 !important; float:inherit; margin:0 auto !important; margin-bottom:10px; overflow:hidden;}
+	.aboutAspect ul{max-width:320px; margin:0 auto; float:inherit;}
+	.aboutAspect ul li{max-width:240px; min-height:240px; float:inherit; margin:0 auto;}
+	.add-icon{margin:0 auto; min-height:80px !important;}
+	.add-icon span{top:30% !important;}
+	.footer_menu, .footer_menu ul li{float:none; display:inline-block;}
+	#footer p, .footer_menu ul li a{width:100%; text-align:center; display:inline-block;}
+.text-right{ text-align:left !important;}
+.xs_hide{display:none !important;}
+.sm-left{float:none;}
+.mainbar{background:rgba(0, 0, 0, 1)}
+.logo{padding:15px;}
+.parallax{display:none;}
+.wrapper{height:auto;}
+.banner-txt{padding-right:0px;}
+#home{height:100%;}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+	
+}
+

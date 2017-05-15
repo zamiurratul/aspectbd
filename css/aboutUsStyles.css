@@ -1,0 +1,140 @@
+#about_us{
+    margin-bottom:20px;
+    
+}
+#about_us .title{margin-bottom:30px; color:#000;}
+
+#aboutUsTitle h1{
+    color:black;
+    margin:80px 0; 
+    font-size:45px; 
+    text-align:left; 
+    font-family: 'Raleway', sans-serif; 
+    font-weight:700;
+}
+.aboutAspect{
+    width:100%; 
+    max-width:1080px; 
+    margin:0 auto; 
+    overflow:hidden;
+}
+
+.aboutAspect ul{
+    width:100%; 
+	float:left;
+	margin-bottom:20px;
+}
+
+.aboutAspect ul li{
+    box-shadow:3px 3px 3xp #000; 
+    list-style:none; 
+    position:relative; 
+    width:100%; 
+    min-height:220px; 
+    max-width:220px; 
+    color:#FFF; 
+    float:left; 
+    text-align:center; 
+    border:1px solid #ccc; 
+    border-radius:50%;
+}
+
+.aboutAspect ul li p{
+    position:absolute; 
+    top:45%; 
+    left:0; 
+    width:100%; 
+    text-align:center;
+}
+
+.add-icon{
+    max-width:50px !important; 
+    border:none !important; 
+    color:#000 !important;
+}
+
+.add-icon p{
+    font-size:26px; 
+    font-weight:bold; 
+    top:45% !important;
+}
+
+.more{
+    position:absolute; 
+    top:0; 
+    bottom:0; 
+    width:100%; 
+    border-radius:50%; 
+    background:rgba(0, 0, 0, .5); 
+   
+}
+.we{
+    position: fixed !important;
+    left: -60px !important;
+    font-size: 18px;
+}
+
+.we2{
+    position: fixed !important;
+    left: -65px !important;
+    font-size: 18px;
+}
+
+.create{
+    position: fixed !important;
+    left: 20px !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.round{
+    transition: all .80s ease;
+    transform: scale(.90);
+}
+.round:hover{
+    transform: scale(1) perspective(1px)
+}
+
+/*Background Color And Text Color Start*/
+.yello-bg{background-color:#e75f17;}
+.yello-txt{color:#e75f17;}
+.blue-bg{background-color:#1c83c5;}
+.blue-txt{color:#1c83c5;}
+.red-bg{background-color:#e61538;}
+.red-txt{color:#e61538;}
+.green-bg{background-color:#b6d21c;}
+.green-txt{color:#b6d21c;}
+.perpal-bg{background-color:#8e3587;}
+.perpal-txt{color:#8e3587;}
+.pest-bg{background-color:#1ccfc5;}
+.pest{background-color:#1ccfc5;}
+/*Background Color And Text Color End*/
+
+.about_list{
+    width:100%; 
+    margin-top:20px; 
+    float:left;
+}
+.about_list li{
+    display:block; 
+    text-align:left; 
+    background-size:40px 40px; 
+    padding-left:30px; 
+    margin-bottom:10px;
+}
+
+.about_list li{
+    font-size:25px; 
+    color:#000; 
+    font-weight:600; 
+    padding-left:35px;
+}
+.about_list .ex-list{
+    padding-left:50px; 
+    font-size:16px;
+	font-weight:400;
+	color:#666 !important;
+}
+.about_list .sub-list li{
+	font-weight:normal;	
+}
